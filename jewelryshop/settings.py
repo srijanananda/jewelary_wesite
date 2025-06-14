@@ -3,6 +3,10 @@
 from pathlib import Path
 import dj_database_url, os
 
+
+os.environ["DJANGO_SUPERUSER_PASSWORD"] = config("DJANGO_SUPERUSER_PASSWORD", default="adminpass")
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
