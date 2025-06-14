@@ -28,7 +28,7 @@ staticfiles/  # Collected static files for production
 
 # Render files (safe to ignore local versions)
 render.yaml
-build.sh
+
 
 # VSCode / IDEs
 .vscode/
