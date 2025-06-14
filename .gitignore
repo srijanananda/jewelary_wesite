@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+*.log
+media/
+staticfiles/  # Collected static files for production
+*.pot
+*.pyc
+.DS_Store
+
+# Migrations (optional: only if you want to exclude them)
+**/migrations/
+!*/migrations/__init__.py
+
+# Render files (safe to ignore local versions)
+render.yaml
+build.sh
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac & Linux
+.DS_Store
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment & Secrets
+.env
+.env.*
+
+# Compiled assets or caches
+*.egg-info/
+*.egg
+dist/
+build/
