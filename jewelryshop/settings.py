@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import dj_database_url, os
+from decouple import config
 
 
 os.environ["DJANGO_SUPERUSER_PASSWORD"] = config("DJANGO_SUPERUSER_PASSWORD", default="adminpass")
